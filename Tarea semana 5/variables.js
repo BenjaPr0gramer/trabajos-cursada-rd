@@ -1,7 +1,7 @@
-let provincia = "Buenos Aires"
-let localidad = "San Nicolas"
-let antiguedad = "2000"
-let provincia_y_localidad = provincia + " " + localidad
+var provincia = "Buenos Aires"
+var localidad = "San Nicolas"
+var antiguedad = "2000"
+var provincia_y_localidad = provincia + " " + localidad
 
 provincia = "Cordoba"
 localidad = "Carlos paz"
