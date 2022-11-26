@@ -1,5 +1,5 @@
 // CLASE 10
-/* agregar variable
+/* agregado de variable
 let nombre = "Programación" + " Fácil.";
 let saludo = "Les doy la bienvenida a ";
 let usuarios = "los estudiantes en "
