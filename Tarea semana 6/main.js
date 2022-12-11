@@ -80,3 +80,13 @@ let cantidad = prompt("Ingrese la cantidad")
 for(i=1;i<=cantidad;i++){
     document.write("Hola Mundo" + "<br>");
 } */
+/* comparar
+let num1 = 18
+let num2 = 17
+let comparacion = (num1 != num2)
+console.log(comparacion) */
+/* dividir
+let num1 = parseInt(prompt("ingrese primer numero"));
+let num2 = parseInt(prompt("ingrese segundo numero"));
+let num3 = parseInt(prompt("ingrese tercer numero"));
+console.log((num1 + num2 + num3)/ 3); */
