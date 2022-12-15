@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto - PowerPC</title>
+</head>
+<body>
+    <header>
+        <div class="inline-img">
+            <img src="./img/logopowerpc.png" alt="logo" width="6%">
+            <h1>PowerPC</h1>
+        </div>
+        <!--Bootstrap navbar-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="historia.html">Quienes somos?</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        <li><a class="dropdown-item" href="#">Auriculares</a></li>
+                        <li><a class="dropdown-item" href="#">Gabinetes</a></li>
+                        <li><a class="dropdown-item" href="#">Fuentes de Energia</a></li>
+                        <li><a class="dropdown-item" href="#">Placas Madre</a></li>
+                        <li><a class="dropdown-item" href="#">Microprocesadores</a></li>
+                        <li><a class="dropdown-item" href="#">Memorias RAM</a></li>
+                        <li><a class="dropdown-item" href="#">Discos HDD/SSD</a></li>
+                        <li><a class="dropdown-item" href="#">Placas de Video</a></li>
+                        <li><a class="dropdown-item" href="#">Monitores</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">No esta lo que busco!</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <form action="">
+        <h2>Datos Personales</h2>
+        <form method="get" action="">
+            <label for="">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Escriba su nombre" maxlength="40" required>
+            <label for="">Correo electrónico:</label>
+            <input type="email" name="correo" placeholder="Escriba su email" maxlength="40" required>
+            <label for="">Asunto:</label>
+            <input type="text" name="asunto" maxlength="40" required>
+            <label for="">Mensaje:</label>
+            <textarea name="textoarea" rows="2" maxlength="400" required></textarea>
+            <input type="submit" value="Enviar Datos">
+            <input type="reset" value="Borrar Datos">
+        </form>
+    </form>
+    <div class="numero-wp">
+        <h4>Haz click en enlace de abajo para contactarse por WhatsApp</h4>
+        <a href="https://wa.me/543364650543" target="_blank">Numero de WhatsApp</a>
+    </div>
+    <footer class="derechos">
+        <p>Derechos Reservados &copy; 2021 - <b>B.Vazquez</b></p>
+    </footer>
+    <script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
